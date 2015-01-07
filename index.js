@@ -15,7 +15,7 @@ function handle(app, prefix, routes) {
 module.exports = function(app, prefix, path) {
   if (arguments.length === 2) {
     path = prefix;
-    prefix = '';
+    prefix = '/';
   }
   var routes = require('./lib/require-dir')(path);
   handle(app, prefix, routes);
