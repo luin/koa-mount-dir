@@ -1,5 +1,5 @@
 {
-  "name": "koa-mount-dir",
+  "name": "koa-mount-directory",
   "version": "1.0.0",
   "description": "Mount a directory",
   "main": "index.js",
