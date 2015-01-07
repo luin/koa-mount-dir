@@ -13,7 +13,7 @@ function handle(app, prefix, routes) {
 }
 
 module.exports = function(app, prefix, path) {
-  var routes = require('node-require-directory')(path);
+  var routes = require('./lib/require-dir')(path);
   handle(app, prefix, routes);
 };
 
